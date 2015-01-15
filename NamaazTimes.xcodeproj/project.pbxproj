@@ -16,6 +16,7 @@
 		960822EC1A6807F9006A0A68 /* NamaazTimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822EB1A6807F9006A0A68 /* NamaazTimesTests.m */; };
 		960822FA1A680829006A0A68 /* EDSunriseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822F71A680829006A0A68 /* EDSunriseSet.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		960822FB1A680829006A0A68 /* NamaazCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822F91A680829006A0A68 /* NamaazCalculations.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		960822FD1A680984006A0A68 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960822FC1A680984006A0A68 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		960822F71A680829006A0A68 /* EDSunriseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSunriseSet.m; sourceTree = "<group>"; };
 		960822F81A680829006A0A68 /* NamaazCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamaazCalculations.h; sourceTree = "<group>"; };
 		960822F91A680829006A0A68 /* NamaazCalculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamaazCalculations.m; sourceTree = "<group>"; };
+		960822FC1A680984006A0A68 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960822FD1A680984006A0A68 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,7 @@
 		960822C01A6807F6006A0A68 = {
 			isa = PBXGroup;
 			children = (
+				960822FC1A680984006A0A68 /* CoreLocation.framework */,
 				960822CB1A6807F8006A0A68 /* NamaazTimes */,
 				960822E81A6807F9006A0A68 /* NamaazTimesTests */,
 				960822CA1A6807F8006A0A68 /* Products */,
