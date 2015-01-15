@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960822CF1A6807F8006A0A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822CE1A6807F8006A0A68 /* main.m */; };
+		960822D21A6807F8006A0A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822D11A6807F8006A0A68 /* AppDelegate.m */; };
+		960822D51A6807F8006A0A68 /* NamaazTimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 960822D31A6807F8006A0A68 /* NamaazTimes.xcdatamodeld */; };
+		960822DB1A6807F8006A0A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960822D91A6807F8006A0A68 /* Main.storyboard */; };
+		960822DD1A6807F9006A0A68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960822DC1A6807F9006A0A68 /* Images.xcassets */; };
+		960822E01A6807F9006A0A68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960822DE1A6807F9006A0A68 /* LaunchScreen.xib */; };
+		960822EC1A6807F9006A0A68 /* NamaazTimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822EB1A6807F9006A0A68 /* NamaazTimesTests.m */; };
+		960822FA1A680829006A0A68 /* EDSunriseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822F71A680829006A0A68 /* EDSunriseSet.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		960822FB1A680829006A0A68 /* NamaazCalculations.m in Sources */ = {isa = PBXBuildFile; fileRef = 960822F91A680829006A0A68 /* NamaazCalculations.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960822E61A6807F9006A0A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960822C11A6807F7006A0A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960822C81A6807F7006A0A68;
+			remoteInfo = NamaazTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960822C91A6807F8006A0A68 /* NamaazTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamaazTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960822CD1A6807F8006A0A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960822CE1A6807F8006A0A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		960822D01A6807F8006A0A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		960822D11A6807F8006A0A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		960822D41A6807F8006A0A68 /* NamaazTimes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NamaazTimes.xcdatamodel; sourceTree = "<group>"; };
+		960822DA1A6807F8006A0A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960822DC1A6807F9006A0A68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		960822DF1A6807F9006A0A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		960822E51A6807F9006A0A68 /* NamaazTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamaazTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		960822EA1A6807F9006A0A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960822EB1A6807F9006A0A68 /* NamaazTimesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NamaazTimesTests.m; sourceTree = "<group>"; };
+		960822F61A680829006A0A68 /* EDSunriseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSunriseSet.h; sourceTree = "<group>"; };
+		960822F71A680829006A0A68 /* EDSunriseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSunriseSet.m; sourceTree = "<group>"; };
+		960822F81A680829006A0A68 /* NamaazCalculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamaazCalculations.h; sourceTree = "<group>"; };
+		960822F91A680829006A0A68 /* NamaazCalculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamaazCalculations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960822C61A6807F7006A0A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960822E21A6807F9006A0A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960822C01A6807F6006A0A68 = {
+			isa = PBXGroup;
+			children = (
+				960822CB1A6807F8006A0A68 /* NamaazTimes */,
+				960822E81A6807F9006A0A68 /* NamaazTimesTests */,
+				960822CA1A6807F8006A0A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960822CA1A6807F8006A0A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960822C91A6807F8006A0A68 /* NamaazTimes.app */,
+				960822E51A6807F9006A0A68 /* NamaazTimesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960822CB1A6807F8006A0A68 /* NamaazTimes */ = {
+			isa = PBXGroup;
+			children = (
+				960822D01A6807F8006A0A68 /* AppDelegate.h */,
+				960822D11A6807F8006A0A68 /* AppDelegate.m */,
+				960822F61A680829006A0A68 /* EDSunriseSet.h */,
+				960822F71A680829006A0A68 /* EDSunriseSet.m */,
+				960822F81A680829006A0A68 /* NamaazCalculations.h */,
+				960822F91A680829006A0A68 /* NamaazCalculations.m */,
+				960822D91A6807F8006A0A68 /* Main.storyboard */,
+				960822DC1A6807F9006A0A68 /* Images.xcassets */,
+				960822DE1A6807F9006A0A68 /* LaunchScreen.xib */,
+				960822D31A6807F8006A0A68 /* NamaazTimes.xcdatamodeld */,
+				960822CC1A6807F8006A0A68 /* Supporting Files */,
+			);
+			path = NamaazTimes;
+			sourceTree = "<group>";
+		};
+		960822CC1A6807F8006A0A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960822CD1A6807F8006A0A68 /* Info.plist */,
+				960822CE1A6807F8006A0A68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		960822E81A6807F9006A0A68 /* NamaazTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				960822EB1A6807F9006A0A68 /* NamaazTimesTests.m */,
+				960822E91A6807F9006A0A68 /* Supporting Files */,
+			);
+			path = NamaazTimesTests;
+			sourceTree = "<group>";
+		};
+		960822E91A6807F9006A0A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				960822EA1A6807F9006A0A68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960822C81A6807F7006A0A68 /* NamaazTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960822EF1A6807F9006A0A68 /* Build configuration list for PBXNativeTarget "NamaazTimes" */;
+			buildPhases = (
+				960822C51A6807F7006A0A68 /* Sources */,
+				960822C61A6807F7006A0A68 /* Frameworks */,
+				960822C71A6807F7006A0A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NamaazTimes;
+			productName = NamaazTimes;
+			productReference = 960822C91A6807F8006A0A68 /* NamaazTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960822E41A6807F9006A0A68 /* NamaazTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960822F21A6807F9006A0A68 /* Build configuration list for PBXNativeTarget "NamaazTimesTests" */;
+			buildPhases = (
+				960822E11A6807F9006A0A68 /* Sources */,
+				960822E21A6807F9006A0A68 /* Frameworks */,
+				960822E31A6807F9006A0A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960822E71A6807F9006A0A68 /* PBXTargetDependency */,
+			);
+			name = NamaazTimesTests;
+			productName = NamaazTimesTests;
+			productReference = 960822E51A6807F9006A0A68 /* NamaazTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960822C11A6807F7006A0A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Qasim Abbas";
+				TargetAttributes = {
+					960822C81A6807F7006A0A68 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					960822E41A6807F9006A0A68 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 960822C81A6807F7006A0A68;
+					};
+				};
+			};
+			buildConfigurationList = 960822C41A6807F7006A0A68 /* Build configuration list for PBXProject "NamaazTimes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960822C01A6807F6006A0A68;
+			productRefGroup = 960822CA1A6807F8006A0A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960822C81A6807F7006A0A68 /* NamaazTimes */,
+				960822E41A6807F9006A0A68 /* NamaazTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960822C71A6807F7006A0A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960822DB1A6807F8006A0A68 /* Main.storyboard in Resources */,
+				960822E01A6807F9006A0A68 /* LaunchScreen.xib in Resources */,
+				960822DD1A6807F9006A0A68 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960822E31A6807F9006A0A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960822C51A6807F7006A0A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960822D51A6807F8006A0A68 /* NamaazTimes.xcdatamodeld in Sources */,
+				960822FB1A680829006A0A68 /* NamaazCalculations.m in Sources */,
+				960822D21A6807F8006A0A68 /* AppDelegate.m in Sources */,
+				960822FA1A680829006A0A68 /* EDSunriseSet.m in Sources */,
+				960822CF1A6807F8006A0A68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960822E11A6807F9006A0A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960822EC1A6807F9006A0A68 /* NamaazTimesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960822E71A6807F9006A0A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960822C81A6807F7006A0A68 /* NamaazTimes */;
+			targetProxy = 960822E61A6807F9006A0A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960822D91A6807F8006A0A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960822DA1A6807F8006A0A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960822DE1A6807F9006A0A68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960822DF1A6807F9006A0A68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960822ED1A6807F9006A0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960822EE1A6807F9006A0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960822F01A6807F9006A0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NamaazTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		960822F11A6807F9006A0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NamaazTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		960822F31A6807F9006A0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NamaazTimesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NamaazTimes.app/NamaazTimes";
+			};
+			name = Debug;
+		};
+		960822F41A6807F9006A0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NamaazTimesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NamaazTimes.app/NamaazTimes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960822C41A6807F7006A0A68 /* Build configuration list for PBXProject "NamaazTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960822ED1A6807F9006A0A68 /* Debug */,
+				960822EE1A6807F9006A0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960822EF1A6807F9006A0A68 /* Build configuration list for PBXNativeTarget "NamaazTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960822F01A6807F9006A0A68 /* Debug */,
+				960822F11A6807F9006A0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960822F21A6807F9006A0A68 /* Build configuration list for PBXNativeTarget "NamaazTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960822F31A6807F9006A0A68 /* Debug */,
+				960822F41A6807F9006A0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		960822D31A6807F8006A0A68 /* NamaazTimes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				960822D41A6807F8006A0A68 /* NamaazTimes.xcdatamodel */,
+			);
+			currentVersion = 960822D41A6807F8006A0A68 /* NamaazTimes.xcdatamodel */;
+			path = NamaazTimes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 960822C11A6807F7006A0A68 /* Project object */;
+}
